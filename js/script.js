@@ -26,17 +26,17 @@ $("#navbarResponsive a").on('click', function(event) {
 
 //Trigger click on accordion
 
-$('#custom-link1').on('click', function (evt) {
+$('.custom-link1').on('click', function (evt) {
   $('#target-tab-link1').trigger('click');
   
 });
 
-$('#custom-link2').on('click', function (evt) {
+$('.custom-link2').on('click', function (evt) {
   $('#target-tab-link2').trigger('click');
   
 });
 
-$('#custom-link3').on('click', function (evt) {
+$('.custom-link3').on('click', function (evt) {
   $('#target-tab-link3').trigger('click');
   
 });
