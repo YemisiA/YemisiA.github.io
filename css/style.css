@@ -130,7 +130,8 @@ ul.nav-tabs .nav-link{color:#ff6133;}
   .profileImage{z-index:2}
 	.navbar-brand span{font-size:1.5em;}
 	
-	
+  #achievements .card{margin-bottom:2em;}
+
 	.hero-text{width:80vw;z-index:99}
 	.hero-text h1{font-size:2em;z-index:99}
 	#accordion{Margin-bottom: 5em;}
@@ -149,7 +150,9 @@ ul.nav-tabs .nav-link{color:#ff6133;}
 	#accordion .card{background:#fff!important; color:rgba(0,0,0,.5)!important;border:none}
 	.collapse.show{color:rgba(0,0,0,.5)}
 	#accordion .card-header{padding:0;  }
-#achievements{padding:10px;}
+#achievements{padding:2em;}
+
+
 h2{font-size:1.5em;}
 #section2 h1{margin-left:20px}
 #section2 .nav-link{padding:.3em;}
