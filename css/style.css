@@ -1,22 +1,25 @@
-/*colors:
+/*colors used:
 #ff6133
 #fff
 #000
 
-fonts:
+fonts used:
 font-family: 'Poppins', sans-serif;
 font-family: 'Nova Script', cursive;
 */
 
+/*All page components*/
 *,body, html {
    
     box-sizing: border-box !important;
     position: relative;
     font-family: 'Poppins', sans-serif;
-	font-size:100%;
+	 font-size:100%;
   
 }
 
+
+/*All links on the page*/
 a {color:#ff6133; transition: all .3s ease-in-out; 
 }
 ul{list-style-type: none;}
