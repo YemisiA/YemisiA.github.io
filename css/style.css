@@ -124,9 +124,9 @@ ul.nav-tabs .nav-link{color:#ff6133;}
   /*mobile styles*/
 @media only screen and (max-width: 992px) 
   { 
-  .section{min-height:50vh}
+  
   #section1{margin-bottom: 3em;}
-  .hero-image{height:70vh;}
+  .hero-image{height:80vh;}
   .profileImage{z-index:2}
 	.navbar-brand span{font-size:1.5em;}
 	
@@ -150,7 +150,7 @@ ul.nav-tabs .nav-link{color:#ff6133;}
 	#accordion .card{background:#fff!important; color:rgba(0,0,0,.5)!important;border:none}
 	.collapse.show{color:rgba(0,0,0,.5)}
 	#accordion .card-header{padding:0;  }
-#achievements{padding:2em;}
+  #achievements{padding:2em;}
 
 
 h2{font-size:1.5em;}
