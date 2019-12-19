@@ -22,27 +22,24 @@ font-family: 'Nova Script', cursive;
 /*All links on the page*/
 a {color:#ff6133; transition: all .3s ease-in-out; 
 }
+a:hover{opacity: .7; color:#ff6133;}
+
 ul{list-style-type: none;}
 
-a:hover{opacity: .7; color:#ff6133;}
+
 nav.navbar{text-transform: uppercase; }
 
 .navbar-brand,.navbar-brand span{font-family: 'Nova Script', cursive; text-transform: capitalize;}
 
+
+/*text styles*/
 .navbar-brand span{color:#ff6133; font-size:2em;}
-
-
 a.nav-link.active{color:#ff6133}
-.container-fluid,.row,.col-lg-12{ margin:0 !important;
-    padding: 0 !important;}
 .section h1{text-align:left; font-size:3em; margin-bottom:2em; text-transform:uppercase;}
 h2,h3{font-family: 'Nova Script', cursive;}	
 h4{padding:2em 0;}
 
-#achievements{background:#000; color:#fff!important;}
-	
-#achievements .container{padding:3em 0;}
-
+/*button styles*/
 button{text-transform:uppercase; letter-spacing:.1em;border-radius:0!important;min-width: 200px; transition: all .3s ease-in-out; }
 button.navbar-toggler{min-width:0px;}
 button:hover{opacity:.7;}
@@ -52,14 +49,18 @@ button.btn-secondary {background:transparent!important; border: 2px solid #ff613
 
   
 /* The hero image */
+
+
+.container-fluid,.row,.col-lg-12{ margin:0 !important;
+  padding: 0 !important;/* remove all padding and margin to have  full screen image */}
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  /* Linear gradient for readability */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
 
-  /* Set a specific height */
+  /* Set a height */
   height: 100vh;
 
-  /* Position and center the image to scale nicely on all screens */
+  /* Position and center the image */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -75,6 +76,12 @@ button.btn-secondary {background:transparent!important; border: 2px solid #ff613
   transform: translate(-50%, -50%);
   color: white;
 }
+
+/*style the sections and modify bootstrap styles*/
+
+#achievements{background:#000; color:#fff!important;}
+	
+#achievements .container{padding:3em 0;}
 
 #section1{margin-bottom:8em;}
 .dropdown-menu a.nav-link{color: rgba(0, 0, 0, 0.5)!important}
@@ -112,6 +119,9 @@ ul.nav-tabs .nav-link{color:#ff6133;}
   #scroll{position:fixed; bottom:20px; z-index:999; right:20px; display:block; font-size:1.5em; padding:5px 20px; background:rgba(0, 0, 0, 0.7); color:#ff6133; display:none; transition:.3s ease-in-out}
   #scroll:hover{background:#ff6133; color:#fff}
   span.accent{color:#ff6133; font-size:1.2em;font-style: italic; font-variant: small-caps;}
+
+
+  /*mobile styles*/
 @media only screen and (max-width: 992px) 
   { 
   .section{min-height:50vh}
@@ -129,7 +139,7 @@ ul.nav-tabs .nav-link{color:#ff6133;}
 }
 
 @media only screen and (max-width: 600px) {
-	body{}
+	
 	.section h1{font-size:2em;}
 	button.btn-primary {font-size:60%;}  
 	

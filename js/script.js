@@ -1,22 +1,22 @@
 // Add smooth scrolling on all links inside the navbar
 $("#navbarResponsive a").on('click', function(event) {
 
-  // Make sure this.hash has a value before overriding default behavior
+  // if hash has a value
   if (this.hash !== "") {
 
-    // Prevent default anchor click behavior
+    // Prevent default behavior
     event.preventDefault();
 
     // Store hash
     var hash = this.hash;
 
     // Using jQuery's animate() method to add smooth page scroll
-    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+    // 800 is number of miliseconds
     $('html, body').animate({
       scrollTop: $(hash).offset().top
     }, 800, function(){
 
-    // Add hash (#) to URL when done scrolling (default click behavior)
+    // Add hash (#) according to scroll location
       window.location.hash = hash;
     });
 
@@ -24,9 +24,11 @@ $("#navbarResponsive a").on('click', function(event) {
 
 });
 
-//Trigger click on accordion
+//Trigger tab on accordion
 
+//on click event
 $('.custom-link1').on('click', function (evt) {
+  // trigger click on specific id
   $('#target-tab-link1').trigger('click');
   
 });
@@ -41,7 +43,7 @@ $('.custom-link3').on('click', function (evt) {
   
 });
 
-//scrool to top arrow
+//scrool to top  used J Query fadeIn and fadeOut
 $(document).ready(function(){ 
   $(window).scroll(function(){ 
       if ($(this).scrollTop() > 100) { 
