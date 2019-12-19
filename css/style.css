@@ -19,6 +19,7 @@ font-family: 'Nova Script', cursive;
 
 a {color:#ff6133; transition: all .3s ease-in-out; 
 }
+ul{list-style-type: none;}
 
 a:hover{opacity: .7; color:#ff6133;}
 nav.navbar{text-transform: uppercase; }
